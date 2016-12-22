@@ -1,0 +1,29 @@
+body{background-color: rgb(15,17,200);}
+h1,p {color: black;}
+p {font-size: 25px;}
+
+#slogan
+{
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	color: red;
+
+}
+ul{font-size: 20px;}
+h1
+{
+	text-align: center;
+}
+#contact
+{font-size: 20px;
+font-style: italic;}
+
+img {
+border-image-width: 250px;
+  position: fixed;
+
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Chonburi|Oswald|Oxygen|Yrsa');
+
+body{background-color: (15,17,200);}
+h1,p {color: black;}
+p {font-size: 20px;
+	font-family: 'Yrsa', serif;
+}
+
+#slogan
+{
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	color: red; 	 	
+}
+
+ul{font-size: 20px ;
+	font-family: 'Yrsa', serif;
+}
+h1
+{
+	text-align: center;
+	font-family: 'Chonburi', cursive;
+  
+}
+
+#contact
+{font-size: 20px;
+font-style: italic;}
+
+img {
+border-image-width: 250px;
+  position: fixed;
+
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#nav_one {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	display: inline-block;
+}
+
+.picture {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.description {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#section_one {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}

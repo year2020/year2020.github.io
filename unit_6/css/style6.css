@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Chonburi|Oswald|Oxygen|Yrsa');
+
+body{background-color: (15,17,200);}
+h1,p {color: black;}
+p {font-size: 20px;
+	font-family: 'Yrsa', serif;
+}
+
+#slogan
+{
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	color: red; 
+	padding: 5px 10px;
+}
+
+ul{font-size: 20px ;
+	font-family: 'Yrsa', serif;
+}
+h1
+{
+	text-align: center;
+	font-family: 'Chonburi', cursive;
+  
+}
+
+#contact
+{font-size: 20px;
+font-style: italic;}
+
+img {
+border-image-width: 250px;
+  position: fixed;
+
+}
+
+header {
+	background-color: #D3D3D3;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background: #333;
+}
+
+nav a {
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #ffffff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+nav a:hover { 
+  background-color: #338833; 
+}
+
+
+.wrapper {
+	background-color: #778899;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#two_column {
+	background-color: #339966;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+#left {
+	background-color: #339966;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #339966;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+footer {
+	background-color: #D3D3D3;
+	border: 1px black solid;
+	padding: 2px 7px;
+}

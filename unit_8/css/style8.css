@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Chonburi|Oswald|Oxygen|Yrsa');
 
-body{background-color: (15,17,200);
-	margin: 0 auto;
-       }
-h1,p {color: black;}
-p {font-size: 1.2em;
+body {
+		background-color: (15,17,200);
+		margin: 0 auto;
+      }
+
+
+h1,p {
+	color: black;
+	 }
+
+p 	{
+	font-size: 1.2em;
 	font-family: 'Yrsa', serif;
-}
+    }
 
 #slogan
 {
@@ -20,37 +27,39 @@ p {font-size: 1.2em;
 	padding: 0.3em 0em;
 }
 
-ul{font-size: 1.2em ;
+ul{
+	font-size: 1.4em ;
 	font-family: 'Yrsa', serif;
-}
+  }
+
 h1
 {
 	text-align: center;
 	font-family: 'Chonburi', cursive;
-  
 }
 
 #contact
-{font-size: 1.2em;
-font-style: italic;}
-
-img {
-border-image-width: 15.6em;
-  position: fixed;
-
+{
+	font-size: 1.2em;
+	font-style: italic;
 }
 
-header {
+
+
+header 
+{
 	background-color: #D3D3D3;
 	border: 0.2em black solid;
-	padding: 1.2em;
+	padding: 1em;
 }
 
-nav {
+nav 
+{
 	background: #333;
 }
 
-nav a {
+nav a 
+{
 	display: block;
 	float: left;
 	padding: 0.4em 0.8em;
@@ -59,46 +68,48 @@ nav a {
 	border-right: 0.1em solid #fff;
 }
 
-nav a:hover { 
+nav a:hover 
+{ 
   background-color: #338833; 
 }
 
 
-.wrapper {
+.wrapper 
+{
 	background-color: #778899;
 	border: 1px black solid;
 	padding: 1.2em;
 	margin: 0 auto;
-
-	
 }
 
-#two_column {
-	background-color: #339966;
-	border: 1px black solid;
+#two_column 
+{
+	 
+ 
 	padding: 1.2em;
-
+	background-image: url("../images/Retailhero.jpg");  
+	background-size: cover;
 }
 
-
-#right {
-	background-color: #339966;
-	border: 1px black solid;
+#right 
+{
+	
+    font-weight: bold;
 	padding: 1.2em;
 	float: right;
 	width:30%;
 }
-#left {
-	background-color: #339966;
-	border: 1px black solid;
+
+#left 
+{
+	font-weight: bold; 
 	padding: 1.2em;
 	float: left;
 	width:62%;
 }
 
-
-
-.clearfix:after {
+.clearfix:after 
+{
     visibility: hidden;
     display: block;
     font-size: 0;
@@ -107,26 +118,25 @@ nav a:hover {
     height: 0;
 }
 
-footer {
+footer 
+{
 	background-color: #D3D3D3;
 	border: 1px black solid;
 	padding: 2px 7px;
 }
 
-@media screen only and (min-width: 500px) {
-body {
-font-size: 0.9em;
-}
+ 
+@media screen and (max-width: 1100px) {
 
-@media screen only and (min-width: 114px) {
-body {
-font-size: 0.5em;
-}
+body 
+	{ 
+	font-size:1em;
+	}
 
-nav {
-    float: none;   
+#right  {
+	float: left;
+	width:62%;
+     }
   }
-  nav a {
-    margin: 0 1.6em .75em 0;
-  }
- }
+
+

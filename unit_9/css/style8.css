@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Chonburi|Oswald|Oxygen|Yrsa');
+
+body {
+		background-color: (15,17,200);
+		margin: 0 auto;
+      }
+
+
+h1 {
+	color: black;
+	font-size: 4em;
+   }
+
+
+p 	{
+	font-size: 1em;
+	font-family: 'Yrsa', serif;
+	color: black;
+    }
+
+
+#offer
+{
+	background-color: #eb5f41;
+	border-color: #eb5f41;
+	padding: 0 0 0 0;
+}
+
+
+#slogan
+{
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	color: white; 
+	margin: auto;
+}
+
+
+#cond
+{
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-size: 15px;
+	font-style: italic;
+	color: white; 
+	padding: 0 0 0 0;
+}
+
+
+#urmart {
+	border-color:#d3d3d3;
+}
+
+
+ul{
+	font-size: 1.4em ;
+	font-family: 'Yrsa', serif;
+  }
+
+
+h1
+{
+	text-align: center;
+	font-family: 'Chonburi', cursive;
+}
+
+
+#contact
+{
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+
+
+header 
+{
+	background-color: #D3D3D3;
+	border: 0.2em #D3D3D3 solid;
+	padding: 1em;
+}
+
+
+nav 
+{
+	background: #333;
+}
+
+
+nav a 
+{
+	display: block;
+	float: left;
+	padding: 0.4em 0.8em;
+	color: #ffffff;
+	text-decoration: none;
+	border-right: 0.1em solid #fff;
+}
+
+nav a:hover 
+{ 
+  background-color: #338833; 
+}
+
+
+.wrapper 
+{
+	background-color: #778899;
+	padding: .6em;
+	margin: 0 auto;
+}
+
+
+#two_column 
+{
+	  
+	padding: 1.2em;
+	background-image: url("../images/Retailhero.jpg");  
+	background-size: cover;
+}
+
+
+#right 
+{
+	
+    font-weight: bold;
+	padding: 1.2em;
+	float: right;
+	width:30%;
+}
+
+
+#left 
+{
+	font-weight: bold; 
+	padding: 1.2em;
+	float: left;
+	width:62%;
+}
+
+.clearfix:after 
+{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.findstores
+{
+	font-weight: bold; 
+	font-size:1.6em;
+	padding: 1.2em;
+	float: left;
+}
+
+.findstores img{ max-width:100%;}
+
+.bystate
+{
+	font-weight: bold; 
+	font-size:1.3em;
+	padding: 1.2em;
+	float: left;
+}
+
+.bystate a {padding:1em;}
+
+footer 
+{
+	background-color: #D3D3D3;
+	border: 1px black solid;
+	padding: 2px 7px;
+}
+
+ 
+@media screen and (max-width: 1100px) {
+
+body 
+	{ 
+	font-size:1em;
+	}
+
+#right  {
+	float: left;
+	width:62%;
+     }
+  }
+
+
